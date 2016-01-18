@@ -1,0 +1,54 @@
+{
+  "name": "vaire",
+  "version": "1.0.0",
+  "description": "React component that renders an auto-updating datetime",
+  "main": "lib/index.js",
+  "scripts": {
+    "tap": "./runtests.js 'test/!(utils).js'",
+    "test": "npm run tap --loglevel=silent",
+    "posttest": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passcod/vaire.git"
+  },
+  "keywords": [
+    "react",
+    "time",
+    "datetime",
+    "vairë"
+  ],
+  "author": "Félix Saparelli <me@passcod.name>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/passcod/vaire/issues"
+  },
+  "homepage": "https://github.com/passcod/vaire#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "react-addons-test-utils": "^0.14.6",
+    "standard": "^5.4.1",
+    "tap": "^5.1.1"
+  },
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "browserify": "^13.0.0",
+    "moment": "^2.11.1",
+    "react": "^0.14.6"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015",
+            "react"
+          ]
+        }
+      ]
+    ]
+  }
+}
