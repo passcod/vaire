@@ -71,3 +71,21 @@ class Foo extends Component {
 
 Note that the format function will be called every second, so making it fast
 won't hurt.
+
+## API
+
+The `dateTime` prop is required, all others are optional.
+
+``` jsx
+<Time dateTime={/* instanceof Date */}
+      format={/* function (date, now = new Date()), default: shortAgo */}
+      interval={/* Number, default: 1000 */} />
+```
+
+The `shortAgo` function is described above. It can be `import`ed for direct use
+or remixing, too:
+
+``` js
+import { shortAgo } from 'vaire'
+```
+
