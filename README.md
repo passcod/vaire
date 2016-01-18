@@ -1,6 +1,6 @@
 # Vairë
 
-[![Version on npm](https://img.shields.io/npm/v/vaire.svg?style=flat-square)](https://www.npmjs.com/package/vaire)[![ Travis](https://img.shields.io/travis/passcod/vaire.svg?style=flat-square)](https://travis-ci.org/passcod/whio-2016)[![ GitHub license](https://img.shields.io/github/license/passcod/vaire.svg?style=flat-square)](https://spdx.org/licenses/ISC.html)[![ Code of Conduct](https://img.shields.io/badge/contributor-covenant-123456.svg?style=flat-square)](http://contributor-covenant.org/version/1/3/0/)
+[![Version on npm](https://img.shields.io/npm/v/vaire.svg?style=flat-square)](https://www.npmjs.com/package/vaire)[![ Travis](https://img.shields.io/travis/passcod/vaire.svg?style=flat-square)](https://travis-ci.org/passcod/vaire)[![ GitHub license](https://img.shields.io/github/license/passcod/vaire.svg?style=flat-square)](https://spdx.org/licenses/ISC.html)[![ Code of Conduct](https://img.shields.io/badge/contributor-covenant-123456.svg?style=flat-square)](http://contributor-covenant.org/version/1/3/0/)
 
 React component that takes care of the details of displaying a time that updates
 live according to some function, by default a "Twitter-style" short style like
