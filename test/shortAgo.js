@@ -3,7 +3,7 @@ import { test } from 'tap'
 import shortAgo from '../lib/shortAgo'
 import moment from 'moment'
 
-test('shortAgo', t => {
+test('shortAgo', (t) => {
   t.plan(400)
 
   const cases = [
@@ -24,7 +24,7 @@ test('shortAgo', t => {
   }
 })
 
-test('shortAgo in the future', t => {
+test('shortAgo in the future', (t) => {
   t.plan(400)
 
   const cases = [

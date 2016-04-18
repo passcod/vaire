@@ -6,7 +6,7 @@ import shortAgo from '../lib/shortAgo'
 import { duration } from 'moment'
 import { createRenderer as shallower } from 'react-addons-test-utils'
 
-test('Time', t => {
+test('Time', (t) => {
   t.plan(300)
 
   function testRender (dt, cb) {
@@ -25,7 +25,7 @@ test('Time', t => {
 
     t.ok(!isNaN(date.getDate()), 'Date is valid') // Sanity check
 
-    testRender(date, output => {
+    testRender(date, (output) => {
       t.equal(output.type, 'time')
       t.deepEqual(output.props, {
         children: ago,
