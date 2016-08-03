@@ -1,6 +1,9 @@
 # Vairë
 
-[![Version on npm](https://img.shields.io/npm/v/vaire.svg?style=flat-square)](https://www.npmjs.com/package/vaire)[![ Travis](https://img.shields.io/travis/passcod/vaire.svg?style=flat-square)](https://travis-ci.org/passcod/vaire)[![ GitHub license](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](https://spdx.org/licenses/ISC.html)[![ Code of Conduct](https://img.shields.io/badge/contributor-covenant-123456.svg?style=flat-square)](http://contributor-covenant.org/version/1/3/0/)
+[![Version on npm](https://img.shields.io/npm/v/vaire.svg?style=flat-square)](https://www.npmjs.com/package/vaire)
+[![Travis](https://img.shields.io/travis/passcod/vaire.svg?style=flat-square)](https://travis-ci.org/passcod/vaire)
+[![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](https://spdx.org/licenses/ISC.html)
+[![Code of Conduct](https://img.shields.io/badge/contributor-covenant-123456.svg?style=flat-square)](http://contributor-covenant.org/version/1/3/0/)
 
 React component that takes care of the details of displaying a time that updates
 live according to some function, by default a "Twitter-style" short style like
@@ -79,7 +82,8 @@ The `dateTime` prop is required, all others are optional.
 ``` jsx
 <Time dateTime={/* instanceof Date */}
       format={/* function (date, now = new Date()), default: shortAgo */}
-      interval={/* Number, default: 1000 */} />
+      interval={/* Number, default: 1000 */}
+      raw={/* true to omit the <time> wrapper */} />
 ```
 
 The `shortAgo` function is described above. It can be `import`ed for direct use
