@@ -1,6 +1,6 @@
 {
   "name": "vaire",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React component that renders an auto-updating datetime",
   "main": "lib/index.js",
   "scripts": {
