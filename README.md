@@ -1,5 +1,7 @@
 # Vairë
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/passcod/vaire.svg)](https://greenkeeper.io/)
+
 [![Version on npm](https://img.shields.io/npm/v/vaire.svg?style=flat-square)](https://www.npmjs.com/package/vaire)
 [![Travis](https://img.shields.io/travis/passcod/vaire.svg?style=flat-square)](https://travis-ci.org/passcod/vaire)
 [![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](https://spdx.org/licenses/ISC.html)
